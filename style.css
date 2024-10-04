@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #6a8277;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    background-color: #007BFF;
+    color: white;
+}
